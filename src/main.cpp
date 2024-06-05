@@ -15,7 +15,7 @@ int main() {
     // This block will generate a gaussian mixture dataset with different means
 
     Sample_generator sampler{};
-    std::vector<double> means{-6.0, 0, 6, 12.0}; // Setting the cluster means.
+    std::vector<double> means{-12, 4, 12, 20}; // Setting the cluster means.
     std::vector<double> probs{0.1, 0.25, 0.35, 0.3}; // Probability of drawing from each cluster.
     int n = 3000; // setting the number of data points to draw.
     double stddev = 0.1; // This will be the standard deviation of all clusters.
